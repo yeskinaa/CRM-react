@@ -1,0 +1,25 @@
+.table__btn {
+  outline: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  line-height: 21px;
+  margin-left: auto;
+  border-radius: 4px;
+  width: 80px;
+}
+.btnActive {
+  color: rgb(0, 135, 103);
+  background-color: rgba(22, 192, 152, 0.38);
+  border: 1px solid rgb(0, 176, 135);
+  padding: 4px 18px;
+}
+
+.btnInactive {
+  color: rgb(223, 4, 4);
+  background-color: rgb(255, 197, 197);
+  border: 1px solid rgb(223, 4, 4);
+  padding: 4px 0px;
+}

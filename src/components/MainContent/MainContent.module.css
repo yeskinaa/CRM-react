@@ -1,0 +1,32 @@
+.mainContent {
+  padding: 41px 71px 250px;
+  background-color: rgb(249, 251, 255);
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  line-height: 36px;
+}
+.title__img {
+  width: 25px;
+}
+
+@media screen and (max-width: 1440px) {
+  .mainContent {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mainContent {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 28px 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainContent {
+    padding: 100px 20px 50px;
+  }
+}

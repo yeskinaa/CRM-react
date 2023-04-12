@@ -1,0 +1,58 @@
+.chartHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.chartHeader__title {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.chartHeader__subtitle {
+  color: rgb(22, 192, 152);
+  font-weight: 400;
+}
+
+.search {
+  position: relative;
+}
+.search__input {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(249, 251, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  outline: none;
+}
+input::-moz-placeholder {
+  color: rgb(181, 183, 192);
+}
+input::-webkit-input-placeholder { 
+  color: rgb(181, 183, 192);
+}
+.search__img {
+  position: absolute;
+  left: 11px;
+  top: 7px;
+  cursor: text;
+}
+
+@media screen and (max-width: 1440px) {
+  .chartHeader {
+    width: 886px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .chartHeader {
+    width: 950px;
+  }
+}

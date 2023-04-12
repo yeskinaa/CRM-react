@@ -1,0 +1,13 @@
+.table__item td {
+  padding: 24px 0;
+  position: relative;
+}
+.table__item td:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgb(238, 238, 238);
+  display: block;
+  position: absolute;
+  bottom: 0;
+}

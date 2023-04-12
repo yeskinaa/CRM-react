@@ -1,0 +1,74 @@
+.chartFooter {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.chartFooter__showing {
+  color: rgb(181, 183, 192);
+}
+
+.paggination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.paggination__item {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  color: rgb(41, 45, 50);
+  background-color: rgb(245, 245, 245);
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid rgb(238, 238, 238);
+}
+.paggination__item:hover {
+  background-color: rgb(89, 50, 234);
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  color: #fff;
+}
+.paggination__item:not(:last-child) {
+  margin-right: 12px;
+}
+.paggination__value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.active {
+  background-color: rgb(89, 50, 234);
+  color: #fff;
+}
+.skip {
+  background-color: transparent;
+  border: none;
+  cursor: default;
+}
+.skip:hover {
+  background-color: transparent;
+  color: rgb(41, 45, 50);
+}
+
+@media screen and (max-width: 1440px) {
+  .chartFooter {
+    width: 886px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .chartFooter {
+    width: 950px;
+  }
+}
